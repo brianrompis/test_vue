@@ -4,7 +4,7 @@
       Call Brian
     </button>
     <button @click="gotoLink" class="call-button">
-      Map
+      Google Map
     </button>
   </div>
 </template>
