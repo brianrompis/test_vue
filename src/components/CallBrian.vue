@@ -3,6 +3,9 @@
     <button @click="callBrian" class="call-button">
       Call Brian
     </button>
+    <button @click="gotoLink" class="call-button">
+      Map
+    </button>
   </div>
 </template>
 
@@ -13,12 +16,17 @@ export default {
       // Redirect to the Google Meet link
       window.location.href = "https://meet.google.com/stw-saxz-wja";
     },
+    gotoLink() {
+      // Google maps url
+      window.location.href = "https://maps.app.goo.gl/re3gBsjxXuTSjfQ4A";
+    },
   },
 };
 </script>
 
 <style>
 .call-button {
+  margin: 10px;
   background-color: #4285f4; /* Google blue */
   color: white;
   padding: 10px 20px;
